@@ -1,0 +1,23 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunchley/Restaurant.git"
+  },
+  "author": "Ashley Bunch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bunchley/Restaurant/issues"
+  },
+  "homepage": "https://github.com/bunchley/Restaurant#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
