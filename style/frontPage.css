@@ -15,8 +15,12 @@ body {
   padding-left: 40%;
 }
 
-.description {
+.subHeadText {
   padding-top: 10px;
   padding-right: 60%;
   color: black;
+}
+
+.invisible {
+  display: none;
 }
