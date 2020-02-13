@@ -1,0 +1,22 @@
+body {
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: -5%;
+  background-blend-mode: hue;
+  display: block;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+.title {
+  font-size: xx-large;
+  padding-left: 40%;
+}
+
+.description {
+  padding-top: 10px;
+  padding-right: 60%;
+  color: black;
+}
