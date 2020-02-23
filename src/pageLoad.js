@@ -1,7 +1,6 @@
 "use strict";
 const contentBlock = document.getElementById("content");
-const body = document.getElementsByName("body");
-const headerLoader = (() => {
+const mainLoader = (() => {
   //   var img = document.createElement("img");
   //   img.src = "../img/grizzly.png";
 
@@ -42,6 +41,6 @@ const headerLoader = (() => {
   contentBlock.appendChild(description);
 })();
 
-module.exports = {
-  headerLoader
-};
+// module.exports = {
+//   mainLoader
+// };
