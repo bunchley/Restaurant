@@ -1,14 +1,18 @@
 console.log("webpacking right meow");
 console.log("other stuff");
 import mainLoader from "./pageLoad";
-// import createMenu from "./menuTab";
+// var menuDisplay = require("./menuTab");
+import menuTab from "./menuTab";
 // import createHnLTable from "./hours&LocTab";
 
-// mainLoader();
-// let menuTab = document.querySelector(".menu");
-// let hnLTab = document.querySelector(".HnL");
-// let backstoryTab = document.querySelector(".backstory");
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    if (tab.classList.contains("menu")) {
+      console.log("creating menu ");
+      menuTab.create();
+    }
+    console.log("here");
+  });
+});
 
-// hnLTab.addEventListener("click", createHnLTable.call());
-//menuTab.addEventListener("click", createMenu);
-// backstoryTab.addEventListener("click", headerLoader);
+
