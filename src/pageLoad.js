@@ -40,7 +40,3 @@ const mainLoader = (() => {
     "Do you have a Rauring hunger? Have you stepped out of hybernation? If so, this place if for you.";
   contentBlock.appendChild(description);
 })();
-
-// module.exports = {
-//   mainLoader
-// };
