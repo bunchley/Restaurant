@@ -1,35 +1,44 @@
 "use strict";
 const contentBlock = document.getElementById("content");
 const mainLoader = (() => {
-  document.body.style.backgroundImage = "url(../img/grizzly.png)";
+  // document.body.style.backgroundImage = "url(../img/grizzly.png)";
 
-  let title = document.createElement("div");
-  title.innerHTML = "Alien Diner";
-  title.className = "title";
-  contentBlock.appendChild(title);
+  // let title = document.createElement("div");
+  // title.innerHTML = "Chick Fiesta";
+  // title.className = "title";
+  // contentBlock.appendChild(title);
+
+  let logo = document.createElement("img");
+  logo.className = "logo";
+  logo.src = "../img/logo.png";
+  contentBlock.appendChild(logo);
 
   let tabBox = document.createElement("div");
-  tabBox.className = "tabBox";
+  tabBox.className = "topNav";
   contentBlock.appendChild(tabBox);
 
-  let tabButton1 = document.createElement("button");
-  tabButton1.className = "backstory tab 1";
-  tabButton1.innerHTML = "Backstory";
-  tabBox.appendChild(tabButton1);
+  let tabHome = document.createElement("a");
+  tabHome.classList = "tablinks home";
+  tabHome.classList.add = "active";
+  tabHome.href = "#home";
+  tabHome.innerHTML = "Home";
+  tabBox.appendChild(tabHome);
 
-  let tabButton2 = document.createElement("button");
-  tabButton2.className = "menu tab 2";
-  tabButton2.innerHTML = "Menu";
-  tabBox.appendChild(tabButton2);
+  let tabAbout = document.createElement("a");
+  tabAbout.classList = "tablinks about";
+  tabAbout.href = "#about";
+  tabAbout.innerHTML = "About";
+  tabBox.appendChild(tabAbout);
 
-  let tabButton3 = document.createElement("button");
-  tabButton3.className = "hnl tab 3";
-  tabButton3.innerHTML = "Hours & Location";
-  tabBox.appendChild(tabButton3);
+  let tabMenu = document.createElement("a");
+  tabMenu.classList = "tablinks menu";
+  tabMenu.href = "#menu";
+  tabMenu.innerHTML = "Menu";
+  tabBox.appendChild(tabMenu);
 
-  let description = document.createElement("div");
-  description.className = "subHeadText";
-  description.innerHTML =
-    "Do you have a Rauring hunger? Have you stepped out of hybernation? If so, this place if for you.";
-  contentBlock.appendChild(description);
+  let tabContact = document.createElement("a");
+  tabContact.classList = "tablinks contact";
+  tabContact.href = "#Contact";
+  tabContact.innerHTML = "Contact";
+  tabBox.appendChild(tabContact);
 })();

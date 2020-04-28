@@ -1,21 +1,34 @@
 import mainLoader from "./pageLoad";
 // var menuDisplay = require("./menuTab");
 const { menuTab } = require("./menuTab.js");
-const { backstory } = require("./backstoryLoad.js");
-const { createHnLTable } = require("./hours&LocTab");
+const { backstory } = require("./aboutTab.js");
+const { createHnLTable } = require("./contactTab");
 
-document.querySelectorAll(".tab").forEach((tab) => {
+document.querySelectorAll(".tablinks").forEach((tab) => {
   tab.addEventListener("click", () => {
+    //get all elements with class and hide them
+    let tabContent = document.getElementsByClassName("tabContent");
+    for (let i = 0; i < tabContent.length; i++) {
+      tabContent[i].style.display = "none";
+    }
+
+    //get all elements with "active" and remove
+    let tablinks = document.getElementsByClassName("tablinks");
+    for (let i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace("active", "");
+    }
+
+    //show current tab and add "active" class
+    tab.classList.add("active");
     if (tab.classList.contains("menu")) {
-      console.log("creating menu ");
       menuTab();
     }
-    if (tab.classList.contains("backstory")) {
+    if (tab.classList.contains("about")) {
+      tab.classList.add("active");
       backstory();
     }
-    if (tab.classList.contains("hnl")) {
+    if (tab.classList.contains("contact")) {
       createHnLTable();
-      s;
     }
   });
 });
