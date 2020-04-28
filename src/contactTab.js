@@ -1,7 +1,6 @@
-const createHnLTable = function () {
-  console.log("hnl  tab selected");
-  const contentBlock = document.getElementById("content");
+const contentBlock = document.getElementById("content");
 
+const createHnLTable = function () {
   let contactContainer = document.createElement("div");
   contactContainer.className = "contact tabContent";
   contentBlock.appendChild(contactContainer);

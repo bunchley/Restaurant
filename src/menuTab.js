@@ -3,7 +3,7 @@ const menuTab = function () {
   const contentBlock = document.getElementById("content");
 
   let menuBlock = document.createElement("div");
-  menuBlock.className = "menu tabContent";
+  menuBlock.className = "menus tabContent";
   contentBlock.appendChild(menuBlock);
 
   let container = document.createElement("div");
@@ -12,9 +12,17 @@ const menuTab = function () {
 
   let title = document.createElement("h2");
   title.className = "subHeadText";
-  title.innerHTML = "Menu";
+  title.innerHTML = "Arrogant Chicken Grub";
   menuBlock.appendChild(title);
 
-  let chickenSandwich = document.createElement("");
+  let chickenMenu = document.createElement("img");
+  chickenMenu.className = "chicken menu";
+  chickenMenu.src = "../img/ChickenMenu.jpg";
+  menuBlock.appendChild(chickenMenu);
+
+  let sideMenu = document.createElement("img");
+  sideMenu.className = "side menu";
+  sideMenu.src = "../img/SideMenu.jpg";
+  menuBlock.appendChild(sideMenu);
 };
 module.exports = { menuTab: menuTab };

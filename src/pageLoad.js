@@ -19,7 +19,6 @@ const mainLoader = (() => {
 
   let tabHome = document.createElement("a");
   tabHome.classList = "tablinks home";
-  tabHome.classList.add = "active";
   tabHome.href = "#home";
   tabHome.innerHTML = "Home";
   tabBox.appendChild(tabHome);

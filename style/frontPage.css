@@ -40,12 +40,18 @@ body {
   width: 480px;
 }
 
+img {
+  display: block;
+  width: 900px;
+  height: 650px;
+}
+
 .subHeadText {
   padding-top: 10px;
   padding-right: 60%;
   color: black;
 }
 
-.invisible {
+/* .invisible {
   display: none;
-}
+} */
