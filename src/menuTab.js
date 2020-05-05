@@ -3,7 +3,7 @@ const menuTab = function () {
   const contentBlock = document.getElementById("content");
 
   let menuBlock = document.createElement("div");
-  menuBlock.className = "menus tabContent";
+  menuBlock.className = "menu tabContent";
   contentBlock.appendChild(menuBlock);
 
   let container = document.createElement("div");
