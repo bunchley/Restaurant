@@ -12,7 +12,7 @@ const menuTab = function () {
 
   let title = document.createElement("h2");
   title.className = "subHeadText";
-  title.innerHTML = "Arrogant Chicken Grub";
+  // title.innerHTML = "Arrogant Chicken Grub";
   menuBlock.appendChild(title);
 
   let chickenMenu = document.createElement("img");

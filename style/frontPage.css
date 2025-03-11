@@ -13,7 +13,7 @@ body {
 
 /* Style the links inside the navigation bar */
 .topNav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,7 +28,7 @@ body {
 
 /* Add a color to the active/current link */
 .topNav a.active {
-  background-color: #4caf50;
+  background-color: #ffb703;
   color: white;
 }
 /* Add logo style */
@@ -50,8 +50,12 @@ img {
   padding-top: 10px;
   padding-right: 60%;
   color: black;
+  font-size: 38px;
 }
 
+.about {
+  font-size: 38px;
+}
 /* .invisible {
   display: none;
 } */

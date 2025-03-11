@@ -14,7 +14,7 @@ const backstory = function () {
   let aboutPara = document.createElement("div");
   aboutPara.className = "about paragraph body";
   aboutPara.innerHTML =
-    "Chick Fiesta began as a truck and a Chic. Although we are now a brick and mortar shop in North Denver, not much has changed. Chic now has some superstar peers and they continue to focus on ingredients and people. ";
+    "Arrogant Chicken began as a food truck and a Chick. Now we are a brick and mortar shop in North Denver, not much has changed. <br><br>Arrogant Chicken now has some superstar peers and they continue to focus on ingredients and people. ";
   aboutBlock.appendChild(aboutPara);
 };
 

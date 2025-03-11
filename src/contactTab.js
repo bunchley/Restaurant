@@ -7,7 +7,7 @@ const createHnLTable = function () {
 
   let title = document.createElement("h2");
   title.className = "subHeadText";
-  title.innerHTML = "Location";
+  title.innerHTML = "Location:";
   contactContainer.appendChild(title);
 
   let address = document.createElement("h3");
@@ -17,7 +17,7 @@ const createHnLTable = function () {
 
   let hoursTitle = document.createElement("h2");
   hoursTitle.className = "subHeadText";
-  hoursTitle.innerHTML = "Hours";
+  hoursTitle.innerHTML = "Hours:";
   contactContainer.appendChild(hoursTitle);
 
   let storeDays = document.createElement("h3");

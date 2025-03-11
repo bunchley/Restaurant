@@ -3,6 +3,7 @@ import mainLoader from "./pageLoad";
 const { menuTab } = require("./menuTab.js");
 const { backstory } = require("./aboutTab.js");
 const { createHnLTable } = require("./contactTab");
+const { home } = require("./home.js");
 
 document.querySelectorAll(".tablinks").forEach((tab) => {
   tab.addEventListener("click", () => {
@@ -29,6 +30,10 @@ document.querySelectorAll(".tablinks").forEach((tab) => {
     }
     if (tab.classList.contains("contact")) {
       createHnLTable();
+    }
+    if (tab.classList.contains("home")) {
+      tab.classList.add("active");
+      home();
     }
   });
 });
