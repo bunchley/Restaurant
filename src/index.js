@@ -5,6 +5,7 @@ const { backstory } = require("./aboutTab.js");
 const { createHnLTable } = require("./contactTab");
 const { home } = require("./home.js");
 
+home();
 document.querySelectorAll(".tablinks").forEach((tab) => {
   tab.addEventListener("click", () => {
     //get all elements with class and hide them
