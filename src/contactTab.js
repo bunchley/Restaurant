@@ -12,7 +12,7 @@ const createHnLTable = function () {
 
   let address = document.createElement("h3");
   address.className = "body";
-  address.innerHTML = "52nd and Pecos, Denver, CO 80221";
+  address.innerHTML = "Denver, CO";
   contactContainer.appendChild(address);
 
   let hoursTitle = document.createElement("h2");
