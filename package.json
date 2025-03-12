@@ -16,7 +16,7 @@
   "scripts": {
     "start": "webpack server",
     "build": "webpack",
-    "deploy": "npm run build && master -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
