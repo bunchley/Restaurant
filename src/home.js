@@ -11,10 +11,10 @@ const home = function () {
   title.innerHTML = "Chicken is Home";
   aboutBlock.appendChild(title);
 
-  let aboutPara = document.createElement("div");
-  aboutPara.className = "about paragraph body";
-  aboutPara.innerHTML = "";
-  aboutBlock.appendChild(aboutPara);
+  //   let aboutPara = document.createElement("div");
+  //   aboutPara.className = "about paragraph body";
+  //   aboutPara.innerHTML = "";
+  //   aboutBlock.appendChild(aboutPara);
 
   let logo = document.createElement("img");
   logo.className = "logo";
