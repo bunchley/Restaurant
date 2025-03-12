@@ -12,11 +12,11 @@
   "bugs": {
     "url": "https://github.com/bunchley/Restaurant/issues"
   },
-  "homepage": "https://bunchley.github.io/Restaurant/",
+  "homepage": "https://bunchley.github.io/Restaurant/index.html",
   "scripts": {
     "start": "webpack server",
     "build": "webpack",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
