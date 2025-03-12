@@ -26,14 +26,12 @@ document.querySelectorAll(".tablinks").forEach((tab) => {
       menuTab();
     }
     if (tab.classList.contains("about")) {
-      tab.classList.add("active");
       backstory();
     }
     if (tab.classList.contains("contact")) {
       createHnLTable();
     }
     if (tab.classList.contains("home")) {
-      tab.classList.add("active");
       home();
     }
   });

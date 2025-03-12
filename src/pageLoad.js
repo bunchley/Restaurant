@@ -1,5 +1,6 @@
 "use strict";
 const contentBlock = document.getElementById("content");
+import chickenLogo from "./img/logo.png";
 const mainLoader = (() => {
   // document.body.style.backgroundImage = "url(../img/grizzly.png)";
 
@@ -10,7 +11,7 @@ const mainLoader = (() => {
 
   let logo = document.createElement("img");
   logo.className = "logo";
-  logo.src = "../img/logo.png";
+  logo.src = chickenLogo;
   contentBlock.appendChild(logo);
 
   let tabBox = document.createElement("div");

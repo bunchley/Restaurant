@@ -1,3 +1,4 @@
+import foodTruckImage from "./img/foodTruck.jpg";
 const home = function () {
   console.log("home");
   const contentBlock = document.getElementById("content");
@@ -18,7 +19,7 @@ const home = function () {
 
   let logo = document.createElement("img");
   logo.className = "logo";
-  logo.src = "../img/foodTruck.jpg";
+  logo.src = foodTruckImage;
   aboutBlock.appendChild(logo);
 };
 
