@@ -1,4 +1,4 @@
-import foodTruckImage from "../img/foodTruck.jpg";
+import foodTruckImage from "./img/foodTruck.jpg";
 const home = function () {
   console.log("home");
   const contentBlock = document.getElementById("content");

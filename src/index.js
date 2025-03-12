@@ -1,5 +1,3 @@
-import mainLoader from "./pageLoad";
-// var menuDisplay = require("./menuTab");
 const { menuTab } = require("./menuTab.js");
 const { backstory } = require("./aboutTab.js");
 const { createHnLTable } = require("./contactTab");

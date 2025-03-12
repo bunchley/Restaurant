@@ -1,6 +1,6 @@
 "use strict";
 const contentBlock = document.getElementById("content");
-import chickenLogo from "../img/logo.png";
+import chickenLogo from "./img/logo.png";
 const mainLoader = (() => {
   // document.body.style.backgroundImage = "url(../img/grizzly.png)";
 
