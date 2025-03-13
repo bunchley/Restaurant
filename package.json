@@ -14,9 +14,10 @@
   },
   "homepage": "https://bunchley.github.io/Restaurant/index.html",
   "scripts": {
-    "start": "webpack server",
-    "build": "webpack",
-    "deploy": "npm run build"
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "npm run clean && npm run build && gh-pages -d dist",
+    "clean": "rm -rf dist/"
   },
   "devDependencies": {
     "css-loader": "^7.1.2",
