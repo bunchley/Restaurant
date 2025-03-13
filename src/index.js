@@ -1,9 +1,11 @@
-const { menuTab } = require("./menuTab.js");
-const { backstory } = require("./aboutTab.js");
-const { createHnLTable } = require("./contactTab");
-const { home } = require("./home.js");
+import { menuTab } from "./menuTab.js";
+import { backstory } from "./aboutTab.js";
+import { createHnLTable } from "./contactTab.js";
+import { home } from "./home.js";
+import { mainLoader } from "./pageLoad.js";
+import "./style.css";
 
-home();
+home;
 document.querySelectorAll(".tablinks").forEach((tab) => {
   tab.addEventListener("click", () => {
     //get all elements with class and hide them

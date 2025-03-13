@@ -31,6 +31,4 @@ const createHnLTable = function () {
   contactContainer.appendChild(storeHours);
 };
 
-module.exports = {
-  createHnLTable: createHnLTable,
-};
+export { createHnLTable };

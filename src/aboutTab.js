@@ -18,4 +18,4 @@ const backstory = function () {
   aboutBlock.appendChild(aboutPara);
 };
 
-module.exports = { backstory: backstory };
+export { backstory };

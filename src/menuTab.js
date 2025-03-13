@@ -1,4 +1,5 @@
-"use strict";
+import sideMenuImg from "./img/SideMenu.jpg";
+import chickenMenuImg from "./img/ChickenMenu.jpg";
 const menuTab = function () {
   const contentBlock = document.getElementById("content");
 
@@ -17,12 +18,12 @@ const menuTab = function () {
 
   let chickenMenu = document.createElement("img");
   chickenMenu.className = "chicken menu";
-  chickenMenu.src = "../img/ChickenMenu.jpg";
+  chickenMenu.src = chickenMenuImg;
   menuBlock.appendChild(chickenMenu);
 
   let sideMenu = document.createElement("img");
   sideMenu.className = "side menu";
-  sideMenu.src = "../img/SideMenu.jpg";
+  sideMenu.src = sideMenuImg;
   menuBlock.appendChild(sideMenu);
 };
-module.exports = { menuTab: menuTab };
+export { menuTab };

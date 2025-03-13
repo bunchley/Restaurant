@@ -42,3 +42,5 @@ const mainLoader = (() => {
   tabContact.innerHTML = "Contact";
   tabBox.appendChild(tabContact);
 })();
+
+export { mainLoader };

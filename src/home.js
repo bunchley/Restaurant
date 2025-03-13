@@ -23,4 +23,4 @@ const home = function () {
   aboutBlock.appendChild(logo);
 };
 
-module.exports = { home: home };
+export { home };

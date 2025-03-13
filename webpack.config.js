@@ -30,15 +30,8 @@ module.exports = {
         loader: "html-loader",
       },
       {
-        test: /\.(png|jpg)$/i,
-        use: [
-          {
-            loader: "url-loader",
-            options: {
-              mimetype: "image/png",
-            },
-          },
-        ],
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
       },
     ],
   },
